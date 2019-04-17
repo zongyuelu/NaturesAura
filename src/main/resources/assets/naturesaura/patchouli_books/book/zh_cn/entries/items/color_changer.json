@@ -1,0 +1,21 @@
+{
+    "name": "染色桶",
+    "icon": "naturesaura:color_changer",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "染色在生活中十分常用，但是有时候我们很难找到足够的我们想要的燃料，$(item)染色桶$()完美地解决了这个问题。通过混合世界中的三种基色，它可以做出任何你想要的颜色，然后染色到可以染色的方块上面。"
+        },
+        {
+            "type": "text",
+            "text": "想要使用染色桶，首先按住shift右键一个你想要提取的颜色，目标必须是可染色方块，之后右键你想要染色的目标方块便可以进行染色。当然，每次染色都要消耗掉一些$(item)自然灵气$()，你的背包中需要放有一个$(item)自然能量槽$()来为其供应能量。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)染色桶$()的合成",
+            "recipe": "naturesaura:color_changer"
+        }
+    ]
+}

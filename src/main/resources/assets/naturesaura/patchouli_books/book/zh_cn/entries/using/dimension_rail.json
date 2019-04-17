@@ -1,0 +1,35 @@
+{
+    "name": "世界铁轨",
+    "icon": "naturesaura:dimension_rail_nether",
+    "category": "using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "正因为$(item)矿车$()并不能很好的穿越传送门，要想做到不同世界中的传输是非常困难的。$(item)世界铁轨$()帮助人们解决了这个问题：它有三种形态，分别对应三个世界。当一个矿车开过$(item)世界铁轨$()时，他会被传送到该铁轨所对应的世界中，当然，这会消耗一些$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "传送之后的位置取决于矿车穿梭于哪两个世界，$(br)在主世界和地狱中穿梭，在主世界的坐标会是八倍于地狱的坐标，就像正常的传送门那样。$(br)在主世界和末地中传送的话，主世界坐标会是出生点，而末地坐标则会是黑曜石平台。"
+        },
+        {
+            "type": "text",
+            "text": "此外，对铁路使用$(l:items/range_visualizer)自然透镜$()会将该铁轨的目的地显示出来，会以可以穿透墙壁的高光显示。这会使你更便捷的找到铁路的目的地。$(p)目前为止所发现的唯一问题，便是这种铁路似乎没有携带$(item)生物$()穿越时空的能力。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)主世界铁轨$()的合成方式。",
+            "recipe": "naturesaura:dimension_rail_overworld"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)地狱铁轨$()的合成方式。",
+            "recipe": "naturesaura:dimension_rail_nether"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)末地铁轨$()的合成方式。",
+            "recipe": "naturesaura:dimension_rail_end"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "烟火收集器",
+    "icon": "naturesaura:firework_generator",
+    "category": "creating",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)烟花$()是一种非常好看的装饰品，虽然制造上有一些贵。$(item)烟火收集器$()便是用来收集烟火来产生$(item)自然灵气$()的设备。它会自动发射掉落在周围的烟花，并根据烟花的复杂程度来获得不同量的$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "对于烟花的复杂程度，通常情况下有$(item)星星数量$()、$(item)颜色$()、以及最重要的：制作烟花所添加的物品多少这几个因素。${p}注意，请不要在设备周围发射烟花，而是扔到设备周围。另外，同时扔很多烟花只会获得一个烟花的$(item)自然灵气$()。所以设置一个计时器是一个很好的选择。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:firework_generator",
+            "text": "$(item)烟火收集器$()的合成方式。"
+        }
+    ]
+}

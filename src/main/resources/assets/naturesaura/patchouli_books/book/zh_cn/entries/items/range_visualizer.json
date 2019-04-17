@@ -1,0 +1,17 @@
+{
+    "name": "自然透镜",
+    "icon": "naturesaura:range_visualizer",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然透镜$()是一个实用的工具。手持自然透镜右键一个设备，其$(thing)工作范围$()会在周围显示出来，让玩家可以更好的控制范围。再次手持自然透镜右键该设备，可以关闭范围显示。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自然透镜$()的合成。",
+            "recipe": "naturesaura:range_visualizer"
+        }
+    ]
+}

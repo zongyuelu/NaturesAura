@@ -1,0 +1,17 @@
+{
+    "name": "外置点火器",
+    "icon": "naturesaura:furnace_heater",
+    "category": "using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有些时候，$(item)熔炉$()十分耗费燃料以及时间。$(br)$(item)外置点火器$()只需贴在熔炉的任何一个面上，便可以让$(item)熔炉$()提速，并且让熔炉无需使用燃料。需要注意的是，在需要消耗$(item)自然灵气$()的同时，过度的放置可能会使环境中的$(item)自然灵气$()枯竭，导致附近的环境枯萎。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)外置点火器$()的制作方式，需要用到$(l:practices/tree_ritual)森林仪式$()。",
+            "recipe": "naturesaura:furnace_heater"
+        }
+    ]
+}

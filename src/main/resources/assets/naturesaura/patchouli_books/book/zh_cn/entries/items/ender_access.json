@@ -1,0 +1,17 @@
+{
+    "name": "末影焦镜",
+    "icon": "naturesaura:ender_access",
+    "category": "items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)末影焦镜$()，简单来说是一个手持版本的$(l:using/ender_crate)末影物品盒$()。和给$(thing)末影物品盒$()设置ID的方法一样，你只需把$(item)末影焦镜$()和一个$(item)末影珍珠$()放入铁砧并重新命名，便可以使这个$(item)末影焦镜$()和对应ID的$(item)末影物品盒$()产生联系。那么同样，每次进行的物品操作都需要消耗掉一些$(item)自然灵气$()，你可以使用$(item)自然能量槽$()来为它补充能量。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)末影焦镜$()的合成方式。",
+            "recipe": "naturesaura:ender_access"
+        }
+    ]
+}

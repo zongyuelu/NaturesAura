@@ -1,0 +1,26 @@
+{
+    "name": "方块放置器",
+    "icon": "naturesaura:placer",
+    "category": "using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "很多活动都需要人们在附近才可以进行，比如$(item)放置方块$()。当$(item)自然灵气$()存在时，这就显得非常浪费时间。$(item)方块放置器$()会消耗一点$(item)自然灵气$()来自动放置方块。$(br)$(item)方块放置器$()会从它上面的任何容器中获得方块，然后放置出来。"
+        },
+        {
+            "type": "text",
+            "text": "如果你想要确定放置在哪一种方块上面，你需要使用$(item)展示框$()，并且在其中放一个该方块，它会在方圆5格的距离内放置容器内的物品。比如，你可以先在$(item)展示框$()中选择圆石，然后在上方的箱子中放入很多木板，$(item)方块放置器$()便会在所有附近的圆石上面放置一个木板。$(p)此外，通入红石信号会导致该方块停止运行。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)方块放置器$()的合成方法。",
+            "recipe": "naturesaura:placer"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)耕地模板$()可以允许$(item)方块放置器$()在$(item)耕地$()进行种植行为。你只需要把模板放置在$(item)展示框$()中即可。",
+            "recipe": "naturesaura:farming_stencil"
+        }
+    ]
+}

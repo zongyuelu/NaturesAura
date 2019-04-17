@@ -1,0 +1,18 @@
+{
+    "name": "生产催化器",
+    "icon": "naturesaura:generator_limit_remover",
+    "category": "creating",
+    "advancement": "naturesaura:offering",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在$(l:creating/on_generating)生产自然灵气$()这一章中我们有提到过，所有生产$(item)自然灵气$()的设备不能超过$(item)自然之眼$()的上限。然而在$(item)生产催化器$()的帮助下，生产$(item)自然灵气$()的设备会移除这一上限，只需将$(item)生产催化器$()放置于目标设备的下方即可。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:generator_limit_remover",
+            "text": "$(item)生产催化器$()的合成方式。"
+        }
+    ]
+}

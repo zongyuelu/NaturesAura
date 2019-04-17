@@ -1,0 +1,22 @@
+{
+    "name": "世界之眼",
+    "icon": "naturesaura:chunk_loader",
+    "category": "using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "flag": "naturesaura:chunk_loader",
+    "pages": [
+        {
+            "type": "text",
+            "text": "人们总是会发现一个奇怪的现象：当人们离开一个区域的时候，世界似乎暂停了。这个自然现象有时会给人们带来许多困扰，比如在远程运输物品的时候。$(item)世界之眼$()为这个问题提供了许多解决方案，但是同样，它的运作需要一些$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "他的使用方法非常简单：放置$(item)世界之眼$()，通入红石信号。它会根据通入的红石信号的强度来选择作用范围，最大范围是30格左右。但是因为自然的不确定性，有时候具体范围会比实际范围多出一些。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)世界之眼$()的合成$(p)$(italic)区块加载器",
+            "recipe": "naturesaura:chunk_loader"
+        }
+    ]
+}

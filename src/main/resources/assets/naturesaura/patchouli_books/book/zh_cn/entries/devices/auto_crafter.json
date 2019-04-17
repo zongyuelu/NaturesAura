@@ -1,0 +1,26 @@
+{
+    "name": "自动合成器",
+    "icon": "naturesaura:auto_crafter",
+    "category": "devices",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "物品的$(thing)合成$()对于植物学家的研究非常重要。可是在工作台中重复合成相同的物品非常乏味和浪费时间，为了改善这一问题，科学家们研究出了$(item)自动合成台$()，它可以自动合成所需要的物品，而不需要人们持续站在旁边。"
+        },
+        {
+            "type": "text",
+            "text": "首先，你需要根据下一页中的多方块结构构建$(item)自动合成器$()，这包含了上古木板、上古原木、和位于中心的$(item)自然合成台$()。$(item)自然合成台$()上的箭头指示了合成表的方向，它会指向工作台的最上面一行。你只需要将合成表内的物品按照工作台中的顺序扔到$(item)上古原木$()上，等待一小会，$(item)自动合成器$()便会帮你合成你需要的物品，并以掉落物的方式出现。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:auto_crafter",
+            "text": "$(item)自动合成器$()的多方块结构。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自动合成台$()的合成方式。",
+            "recipe": "naturesaura:auto_crafter"
+        }
+    ]
+}

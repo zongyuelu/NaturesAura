@@ -1,0 +1,40 @@
+{
+    "name": "自然工具",
+    "icon": "naturesaura:infused_iron_pickaxe",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "我们可以使用$(l:using/altar)自然铁锭$()其中所含有的能量，和原版铁锭一样，$(item)自然铁锭$()同样可以用来合成工具，不过不同的是，他们会产生一些你意想不到的效果。后面几页会对各种工具进行介绍。"
+        },
+        {
+            "type": "text",
+            "text": "值得一提的是，当背包中有$(item)自然能量槽$()时，拿着自然工具按住shift潜行时会缓慢通过$(item)自然灵气$()恢复它的耐久，大幅度延长了它的使用时间。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)植物学家铁稿$()，手持它右键一些方块，可以在上面附上青苔。",
+            "recipe": "naturesaura:infused_pickaxe"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)植物学家手斧$()，可以更好地移除树叶，并且比正常的工具有着更快的挖掘效率。",
+            "recipe": "naturesaura:infused_axe"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)植物学家铁锹$()，手持它右键土块可以使其变为草方块，右键草方块可以使小范围内的草枯萎，获得更快的挖掘速度。",
+            "recipe": "naturesaura:infused_shovel"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)植物学家铁锄$()，当耕地时有大概率获得不同的种子。",
+            "recipe": "naturesaura:infused_hoe"
+        }, {
+            "type": "crafting",
+            "text": "$(item)植物学家长剑$()，当攻击生物时会对其施加短暂的减速效果，让你更好地对付怪物。",
+            "recipe": "naturesaura:infused_sword"
+        }
+    ]
+}

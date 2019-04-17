@@ -1,0 +1,16 @@
+{
+    "name": "全书简介",
+    "icon": "patchouli:guide_book{'patchouli:book':'naturesaura:book'}",
+    "category": "intro",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "这本$(item)自然灵气法典$()全面介绍了$(item)自然灵气$()及其使用方法，除了一些基本的内容，他还包含$(thing)合成物品$()以及$(thing)搭建设备$()的详细流程。$(br)此外，随着你的研究的逐步深入，你会解锁更多的章节，书中的$(thing)小红点$()会提示你继续阅读。"
+        },
+        {
+            "type": "text",
+            "text": "另外本书还会引导按照顺序进行研究，一些章节会显示$(thing)橙色标识$()，这些会提示你下一步该做什么。还有，你可以在首页找到$(item)成就菜单$()的入口，他可以帮你很好的了解整体流程。"
+        }
+    ]
+}

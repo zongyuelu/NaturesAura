@@ -1,0 +1,17 @@
+{
+    "name": "自然电池",
+    "icon": "naturesaura:aura_trove",
+    "category": "items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当你身上物品所需的$(item)自然灵气$()远远超过了几个$(item)自然能量槽$()所能提供的上限时，你就需要一种更加强大的储存$(item)自然灵气$()的方式。你可以尝试使用$(item)自然电池$()，它拥有着$(item)自然能源槽$()三倍的储量。这使你不需要频繁的回$(item)自然祭坛$()来补充$(item)自然灵气$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自然电池$()的合成方式。",
+            "recipe": "naturesaura:aura_trove"
+        }
+    ]
+}

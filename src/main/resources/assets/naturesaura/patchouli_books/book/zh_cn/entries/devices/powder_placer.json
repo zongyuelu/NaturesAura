@@ -1,0 +1,17 @@
+{
+    "name": "粉尘控制器",
+    "icon": "naturesaura:powder_placer",
+    "category": "devices",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(l:effects/effect_powder)增益粉尘$()可以给我们带来许多非常实用的增益效果，但是我们希望可以自动化控制粉尘的生效与关闭，$(item)粉尘控制器$()可以做到这一点。而它的使用方法非常简单：放下一个$(item)粉尘控制器$()，在它的旁边放下一个$(item)箱子$()，并在箱子内装上任何$(item)增益粉尘$()。这时如果$(item)粉尘控制器$()收到一个$(item)红石信号脉冲$()，它便会在控制器上放下对应的粉尘，再给它一个脉冲便会收回。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)粉尘控制器$()的合成方式。",
+            "recipe": "naturesaura:powder_placer"
+        }
+    ]
+}

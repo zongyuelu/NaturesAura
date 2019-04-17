@@ -1,0 +1,12 @@
+{
+    "name": "自然枯竭",
+    "icon": "naturesaura:decayed_leaves",
+    "category": "effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果你过度透支了一个区域内的$(item)自然灵气$()，那么所有植物由于缺少了生存所需的$(item)自然灵气$()，他们会开始枯萎，所有植物，包括作物、树木、以及草地都会缓慢凋零。透支的越多，这个效果则会越强。植物学家们根据研究以往的枯竭案例发现，这个效果目前只会在主世界内发生。"
+        }
+    ]
+}

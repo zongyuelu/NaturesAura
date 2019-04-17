@@ -1,0 +1,17 @@
+{
+    "name": "增益粉尘",
+    "icon": "naturesaura:effect_powder{effect:'naturesaura:plant_boost'}",
+    "category": "effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)增益粉尘$()是含有$(item)自然灵气$()的魔法物品，它主要有两个作用。第一是它可以$(thing)抑制$()一些负面效果的产生，其次，根据$(item)增益粉尘$()的类型，它会产生一些额外的效果，当然，这些效果只有正面增益。"
+        },
+        {
+            "type": "text",
+            "text": "想要使用$(item)增益粉尘$()，你仅仅需要把一些粉尘放到地上，他们便会产生相应的效果。有一些是为生物施加新的效果，也有一些是避免一些效果的产生。你同时放下了多少$(item)增益粉尘$()，那么它们的作用范围就是多少格。左键点击它们，便可以将它们重新变为掉落物形式。$(br)此外，在本章的其他章节中，会介绍不同类型的$(item)增益粉尘$()。"
+        }
+    ]
+}

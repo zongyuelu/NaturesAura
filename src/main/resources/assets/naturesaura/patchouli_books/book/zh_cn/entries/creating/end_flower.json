@@ -1,0 +1,18 @@
+{
+    "name": "末影玫瑰",
+    "icon": "naturesaura:end_flower",
+    "category": "creating",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)末影龙$()拥有着掌管末地世界的能量，但是它是可以被击败的。当你击败了$(item)末影龙$()之后，$(item)末影玫瑰$()便会在末地开始生长，这种玫瑰蕴含着极为大量的$(item)自然灵气$()，如果得以合理运用，它会成为获取$(item)自然灵气$()一个非常有效的方式。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:end_flower",
+            "text": "首先你需要在世界中种植一朵$(item)末影玫瑰$()，要注意它们只能被放置在$(item)末地石$()上面。之后在其周围扔一个$(item)末影之眼，它便会吞噬$(item)末影之眼$()，开始向周围散播能量。当它的能量散播完毕之后，它便会枯萎。",
+            "link_recipe": true
+        }
+    ]
+}

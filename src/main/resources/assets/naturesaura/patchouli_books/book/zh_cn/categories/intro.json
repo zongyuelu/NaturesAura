@@ -1,0 +1,6 @@
+{
+    "name": "简介",
+    "description": "给那些从来没有使用过$(item)自然灵气$()的读者，这可能会有一些难以理解。$(br2)但是本书会从最开始介绍如何去运用自然灵气。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/intro.png",
+    "sortnum": 0
+}

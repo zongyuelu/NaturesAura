@@ -1,0 +1,21 @@
+{
+    "name": "灵魂收集器",
+    "icon": "naturesaura:animal_generator",
+    "category": "creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "通常来讲$(item)自然灵气$()的收集是一把双刃剑。使用$(item)灵魂收集器$()也是一样的。在$(item)灵魂收集器$()周围击杀怪物可以释放他们的灵魂，并产生可观的$(item)自然灵气$()。在这个原理下，未成长的怪物（小骷髅、小僵尸）会释放较少的$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "另外，被击杀的怪物存活的时间越长，它所释放的灵魂力量便越强大。$(p)你可以制作一个刷怪场，并且设置延时击杀，通常来讲，一个半小时之后怪物所释放的$(item)自然灵气$()会达到最大值。需要注意的是，在$(item)灵魂收集器$()附近被击杀的怪物不会掉落任何物品，而且如果同时击杀两个怪物，会导致既没有掉落物也不会收集$(item)自然灵气$()，需等待灵魂收集完成。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:animal_generator",
+            "text": "$(item)怪物收集器$()的合成方式。"
+        }
+    ]
+}

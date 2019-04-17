@@ -1,0 +1,26 @@
+{
+    "name": "自然护甲",
+    "icon": "naturesaura:infused_iron_chest",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "除$(l:items/infused_iron_tools)自然工具$()以外，植物学家们更是发明出了$(item)自然护甲$()。它们可以通过在持有$(l:items/aura_cache)自然能量槽$()的同时潜行来回复耐久，那些$(item)自然工具$()同样可以做到这一点。当然，当同时穿齐整套$(item)自然护甲$()时，会有额外的护甲加成。"
+        },
+        {
+            "type": "text",
+            "text": "值得注意的是，当生物攻击穿有$(item)自然护甲$()的单位时，它会获得短暂的$(item)凋零$()，类似一个荆棘效果的附魔。$(br)此外，当身穿全套自然护甲时使用$(l:items/shockwave_creator)灵魂护符$()会对周围的生物产生短暂的$(item)凋零$()效果。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_helmet",
+            "recipe2": "naturesaura:infused_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_pants",
+            "recipe2": "naturesaura:infused_shoes"
+        }
+    ]
+}

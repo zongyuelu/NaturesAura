@@ -1,0 +1,27 @@
+{
+    "name": "能量转换祭坛",
+    "icon": "naturesaura:rf_converter",
+    "category": "using",
+    "advancement": "naturesaura:sky_ingot",
+    "flag": "naturesaura:rf_converter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然灵气$()十分有用，但是它并不是这个世界中所存在的唯一能量类型。在最近的历史中，人们研究出了一种人造的能量类型--红石能量RF。在$(item)能量转换祭坛$()的帮助下，人们可以将环境中过量的$(item)自然灵气$()转换为红石能量。"
+        },
+        {
+            "type": "text",
+            "text": "要构造一个$(item)能量转换祭坛$()，你需要将一些方块按照下一页的方式摆好。当环境中的$(item)自然灵气$()超过了自然之眼所能观察的上限时，它会自动将其转换为红石能量RF，并且存储在祭坛之中。当你携带自然之眼时，你可以查看祭坛中所存储的能量。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:rf_converter",
+            "text": "$(item)能量转换祭坛$()的多方块结构。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)能量转换祭台$()的合成方式。",
+            "recipe": "naturesaura:rf_converter"
+        }
+    ]
+}

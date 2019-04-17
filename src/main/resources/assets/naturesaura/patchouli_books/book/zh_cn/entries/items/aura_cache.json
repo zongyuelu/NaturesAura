@@ -1,0 +1,18 @@
+{
+    "name": "自然能量槽",
+    "icon": "naturesaura:aura_cache",
+    "category": "items",
+    "advancement": "naturesaura:infused_materials",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "用$(l:collecting/altar)自然祭坛$()来储存$(item)自然灵气$()没有任何问题，但是却十分不方便。为了便捷地储存自然灵气，$(item)自然能量槽$()便可以派上用场。它可以储存大量的$(item)自然灵气$()。$(br)将它放到$(item)自然祭坛$()上，等待$(item)自然灵气$()注入其中即可。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自然能量槽$()的合成。",
+            "recipe": "naturesaura:aura_cache"
+        }
+    ]
+}

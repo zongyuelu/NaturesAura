@@ -1,0 +1,29 @@
+{
+    "name": "智慧之树",
+    "icon": "naturesaura:gold_leaf",
+    "category": "practices",
+    "priority": true,
+    "turnin": "naturesaura:gold_leaf",
+    "pages": [
+        {
+            "type": "text",
+            "text": "多年来植物学家们研究$(item)自然灵气$()时发现，$(item)黄金$()总是会在人们与$(item)自然灵气$()的联系中出现。"
+        },
+        {
+            "type": "spotlight",
+            "text": "所以在开始运用$(item)自然灵气$()之前，你必须先种植一棵$(item)智慧之树$()。它会掉落$(item)金树叶$()，这是一个非常精致和实用的物品。首先你需要制作$(item)智慧纤维$()，然后把它放入树冠中，随着时间的增长，它会慢慢将树变为智慧之树。",
+            "item": "naturesaura:gold_leaf",
+            "link_recipe": true
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)智慧纤维$()的合成方式",
+            "recipe": "naturesaura:gold_fiber"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)金树叶$()可以被研磨为$(item)金粉尘$()。它是$(l:practices/tree_ritual)森林仪式$()的基本构成部分。",
+            "recipe": "naturesaura:gold_powder"
+        }
+    ]
+}

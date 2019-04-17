@@ -1,0 +1,17 @@
+{
+    "name": "灵魂护符",
+    "icon": "naturesaura:shockwave_creator",
+    "category": "items",
+    "advancement": "naturesaura:infused_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)灵魂护符$()给予了人们可以聚集能量的能力，当人们携带着$(item)灵魂护符$()时，他们可以通过跳跃之后迅速潜行来猛踏地面来制造一个地震波，地震波会对周围的生物造成伤害。当同时装备了一整套$(item)自然护甲$()时，还会产生短暂的$(item)凋零效果$()。$(br)当然，每次触发$(item)灵魂护符$()的时候会消耗掉一些$(item)自然灵气$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)灵魂护符$()的合成方式。",
+            "recipe": "naturesaura:shockwave_creator"
+        }
+    ]
+}

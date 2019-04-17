@@ -1,0 +1,17 @@
+{
+    "name": "植物催生粉尘",
+    "icon": "minecraft:wheat_seeds",
+    "category": "effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当区域内的$(item)自然灵气$()超过$(item)自然之眼$()所能观测的四分之三时，$(item)植物催生粉尘$()便会开始发生作用。它会将区域内过度饱和的自然灵气缓慢输送进作物中，以$(item)加速$()作用区域内作物的生长，比如小麦、土豆等。每当$(item)植物催生粉尘$()发生作用，都会消耗掉一些区域内的$(item)自然灵气$()，需要注意的是，该粉尘目前仅在主世界中可用。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:plant_powder",
+            "text": "$(l:effects/effect_powder)植物催生粉尘$()的合成方式。"
+        }
+    ]
+}

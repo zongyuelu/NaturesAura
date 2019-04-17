@@ -1,0 +1,17 @@
+{
+    "name": "掉落保持器",
+    "icon": "naturesaura:pickup_stopper",
+    "category": "devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一些很常用的自动化设备经常需要控制很多掉落物，而如果你不小心捡起了它们，这可能会导致该设备的崩溃或错误。$(item)掉落保持器$()帮你避免了这一点，当给它通入红石信号时，它周围0-8格内的所有掉落物，必须在人们潜行时才可以被拾起。它的作用范围同样与通入的$(item)红石信号$()的强弱有关。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)掉落保持器$()的合成方式。",
+            "recipe": "naturesaura:pickup_stopper"
+        }
+    ]
+}

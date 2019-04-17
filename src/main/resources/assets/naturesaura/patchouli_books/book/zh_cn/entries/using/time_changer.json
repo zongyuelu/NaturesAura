@@ -1,0 +1,26 @@
+{
+    "name": "日晷仪",
+    "icon": "naturesaura:time_changer",
+    "category": "using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一些活动，比如建造、或是狩猎，只能在一天中的特定时间进行。多年来，植物学家们一直在寻找改变时间的方式。到如今$(item)日晷仪$()诞生了。虽说它的制作有一些昂贵，但是它拥有着改变时间的能力。"
+        },
+        {
+            "type": "text",
+            "text": "要使用$(item)日晷仪$()，你需要先制造一个$(item)时间之息$()，然后把一个$(item)物品展示框$()贴在$(item)日晷仪$()的任何一侧，并放入$(item)时间之息$()。$(item)时间之息$()指向正上方代表着午夜，它的旋转会决定要跳至的时间。然后你仅需将一个钟表扔到$(item)日晷仪$()附近，它便会开始工作。当然，你跳过的时间越多，所消耗的$(item)自然灵气$()则越多，通常来讲，这需要消耗相当可观的$(item)自然灵气$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)日晷仪$()的合成方式。",
+            "recipe": "naturesaura:time_changer"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)时间之息$()需要在$(l:practices/offering)神灵祭坛$()中获得。",
+            "recipe": "naturesaura:clock_hand"
+        }
+    ]
+}

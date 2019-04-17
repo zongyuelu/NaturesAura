@@ -1,0 +1,12 @@
+{
+    "name": "窒息",
+    "icon": "minecraft:wool",
+    "category": "effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当你用尽了一个地区内所有的$(item)自然灵气$()，该地区就会产生$(item)枯竭$()效果，所有树木和草地开始枯萎，并且所有需要进行呼吸的动植物全部会受到影响，包括所有玩家。当你所透支的$(item)自然灵气$()越多，你受到的伤害就会越大。"
+        }
+    ]
+}

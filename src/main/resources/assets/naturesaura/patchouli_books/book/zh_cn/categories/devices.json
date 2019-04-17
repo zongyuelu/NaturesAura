@@ -1,0 +1,6 @@
+{
+    "name": "机械设备",
+    "description": "有很多机械设备不需要使用$(item)自然灵气$()，它们同样对于一些设备的构建起到至关重要的作用。在本章中，我们会介绍一些$(item)机械设备$()。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/devices.png",
+    "sortnum": 30
+}
