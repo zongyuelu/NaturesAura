@@ -1,0 +1,21 @@
+{
+    "name": "树木抑制器",
+    "icon": "naturesaura:oak_generator",
+    "category": "creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "成长过度的$(thing)橡木$()时常给人们带来许多烦恼。$(thing)树木抑制器$()便可以完美地解决这一问题，以该设备为中心大约20x20的距离不会产生出大型橡树。"
+        },
+        {
+            "type": "text",
+            "text": "与消耗$(thing)自然灵气$()的设备恰恰相反，$(thing)树木抑制器$()会将原本要生成的大型橡树转变为$(thing)自然灵气$()，并散播到附近的环境中。$(br)显而易见，在自动化树场中该设备可以得到最大化的运用。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:oak_generator",
+            "text": "$(item)树木抑制器$()的合成方式。"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "苔藓收集器",
+    "icon": "naturesaura:moss_generator",
+    "category": "creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "植物学家逐渐发现，在$(thing)苔藓$()中蕴含着丰富的$(thing)自然灵气$()。苔藓收集器便是另外一台生产$(thing)自然灵气$()的设备，它会把附近有苔藓的方块变为普通方块，然后产生$(thing)自然灵气$()并散播到附近的环境中。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:moss_generator",
+            "text": "$(item)苔藓收集器$()的合成方式。"
+        }
+    ]
+}

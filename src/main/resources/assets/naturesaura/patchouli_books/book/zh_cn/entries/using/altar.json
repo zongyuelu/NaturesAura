@@ -1,0 +1,43 @@
+{
+    "name": "自然祭坛",
+    "icon": "naturesaura:nature_altar",
+    "category": "using",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "priority": true,
+    "turnin": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然祭坛$()是目前收集$(item)自然灵气$()一种基本且有效的方式。在按照右侧的方法构建祭坛之后，它会开始缓慢的从周围收集$(item)自然灵气$()。自然祭坛不足以导致附近的能量枯竭。$(br)接下来几页会介绍自然祭坛的用途。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:altar",
+            "text": "如何构建一个$(item)自然祭坛$()"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)自然祭台$()的制作方式，需要用到$(l:practices/tree_ritual)森林仪式$()。",
+            "recipe": "naturesaura:nature_altar"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:gold_brick",
+            "text": "$(item)金石砖$()的合成方式，它被用于$(item)自然祭坛$()的多方块结构中。"
+        },
+        {
+            "type": "text",
+            "text": "当$(item)自然祭坛$()从附近收集了足够的$(item)自然灵气$()之后，它可以为一些物品注入$(item)自然灵气$()。你只需要把想注魔的物品放在祭坛上，短时间后它会注魔完毕。$(br2)接下来几篇会介绍植物学家们常用的注魔物品。"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)自然铁锭$()，注入了$(item)自然灵气$()之后的铁锭，可以合成许多$(thing)自然物品$()。$(br)铁块同样可以被以同样方式注魔。",
+            "recipe": "naturesaura:infused_iron"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)自然砖块$()，注入了$(item)自然灵气$()之后的石头。",
+            "recipe": "naturesaura:infused_stone"
+        }
+    ]
+}

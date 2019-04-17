@@ -1,0 +1,57 @@
+{
+    "name": "神灵祭坛",
+    "icon": "naturesaura:offering_table",
+    "category": "practices",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然铁锭$()十分好用，它拥有着强大的$(item)自然灵气$()。但是如果你需要更加精细和复杂的设备，你需要找到一种更加强大的金属。不要担心，科学家们已经找到了它，那就是$(item)神灵铁锭$()。为了获得他，你需要一个$(item)神灵祭坛$()。$(br)神灵是目前这个世界上已知最强大的生物，那么他自然拥有着世界上最强大的金属。"
+        },
+        {
+            "type": "text",
+            "text": "如果你想建造一个用于向神灵祈求物品的祭坛，你需要一个$(item)神灵祭台$()，并且在周围放上一些鲜花，具体的放置方式会在下一页中描述。在祭坛设置完成后，你需要在祭台的碗中放置你想要祈求的基本物品，之后在附近扔下一个$(item)神灵之诏$()，过一会你需要的物品就会从天而降。$(item)神灵之诏$()的合成方式会在之后展示。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "$(item)神灵祭坛$()的多方块结构。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)神灵祭台$()的合成方式",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)神灵之诏$()的合成方式",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)神灵铁锭$()，世界上最强大的金属，你需要用3块$(item)自然铁锭$()才可以交换它。",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)狂喜护符$()，拥有比$(item)幸福护符$()的更加强大的积极情绪。",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)恐惧护符$()，拥有比$(item)惊慌护符$()的更加强大的恐惧情绪。",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)暴怒护符$()，拥有比$(item)愤怒护符$()的更加强大的气愤情绪。",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)哀痛护符$()，拥有比$(item)痛苦护符$()的更加强大的消极情绪。",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

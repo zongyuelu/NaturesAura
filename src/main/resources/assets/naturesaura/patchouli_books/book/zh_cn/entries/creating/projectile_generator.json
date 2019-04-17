@@ -1,0 +1,21 @@
+{
+    "name": "动能收集器",
+    "icon": "naturesaura:projectile_generator",
+    "category": "creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "众所周知，许多投射物具有强大的动能，科学家们一直在研究将投射物的动能转换为$(item)自然灵气$()，终于他们研发出了$(item)动能收集器$()。$(p)$(item)动能收集器$()可以将发射到上面的投射物转化为$(item)自然灵气$()，并散播到附近的环境之中。"
+        },
+        {
+            "type": "text",
+            "text": "不同的投射物可以产生不同量的$(item)自然灵气$()，$(item)雪球$()所产生的最小，最大的则是$(item)末影珍珠$()。$(p)注意，该设备有4个不同的面，从北面开始，每一次都有一个面被激活，发射投射物到未激活的面上不会有任何$(item)自然灵气$()产生。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:projectile_generator",
+            "text": "$(item)动能收集器$()的合成方式。"
+        }
+    ]
+}

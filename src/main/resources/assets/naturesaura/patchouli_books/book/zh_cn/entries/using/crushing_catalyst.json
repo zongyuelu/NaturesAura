@@ -1,0 +1,42 @@
+{
+    "name": "物品粉碎器",
+    "icon": "naturesaura:crushing_catalyst",
+    "category": "using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:collecting/altar)物品粉碎器$()是一个十分有用的注魔机器，他可以用来粉碎一些特定的物品。$(br)它的使用方式是把$(item)物品粉碎器$()放在自然祭坛的任何一个较低的$(item)金石砖$()上，之后像正常注魔一样放上物品即可。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)物品粉碎器$()的制作，需要用到$(l:practices/tree_ritual)森林仪式$()。",
+            "recipe": "naturesaura:crushing_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "通过粉碎$(item)骨头$()来获得$(item)骨粉$()",
+            "recipe": "naturesaura:bone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "通过粉碎$(item)甘蔗$()来获得$(item)糖$()",
+            "recipe": "naturesaura:sugar"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "通过粉碎$(item)烈焰棒$()来获得$(item)烈焰粉$()",
+            "recipe": "naturesaura:blaze"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "通过粉碎$(item)荧石$()来获得$(item)荧石粉$()",
+            "recipe": "naturesaura:glowstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "通过粉碎$(item)圆石$()来获得$(item)沙子$()",
+            "recipe": "naturesaura:sand"
+        }
+    ]
+}

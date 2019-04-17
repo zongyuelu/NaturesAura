@@ -1,0 +1,24 @@
+{
+    "name": "自然析镜",
+    "icon": "naturesaura:eye_improved",
+    "category": "items",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:items/eye)自然之眼$()为植物学家们带来了许多便利，但是它也有一个非常明显的问题：当区域内的$(item)自然灵气$()到达上限之后，它便无法很好地显示出区域内$(item)自然灵气$()的含量。$(item)自然析镜$()解决了这一问题，它拥有着$(item)自然之眼$()两倍的测量最大值"
+        },
+        {
+            "type": "text",
+            "text": "首先，$(item)自然析镜$()可以显示出目前区域内的$(item)自然灵气$()是否达到各种$(item)增益粉尘$()的生效阈值。其次$(item)自然析镜$()会显示出持有者所在地点正在发生的所有$(item)自然灵气失衡$()效果，在$(item)自然灵气条$()边上会有图标来表示它们，你可以阅读本书的$(item)自然灵气失衡$()部分来获取更多信息。"
+        },{
+            "type": "text",
+            "text": "如果一个效果的图标上有一个叉的话，那么它说明了这种效果需要在区域内放置$(l:effects/effect_powder)增益粉尘$()来生效，或者是这种效果在区域内被某种粉尘抑制了。$(br)另外一点需要注意的是，$(item)自然之眼$() 需要被放置在物品栏中才可以生效，然而$(item)自然析镜$()只要放在背包中便可以，同时他包含了$(item)自然之眼$()所拥有的所有功能。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)自然析镜$()的制作方式，需要用到$(l:practices/tree_ritual)森林仪式$()",
+            "recipe": "naturesaura:eye_improved"
+        }
+    ]
+}

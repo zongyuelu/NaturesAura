@@ -1,0 +1,52 @@
+{
+    "name": "森林仪式",
+    "icon": "naturesaura:wood_stand",
+    "category": "practices",
+    "advancement": "naturesaura:gold_leaf",
+    "priority": true,
+    "turnin": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在开始研究植物魔法学之前，我们要先学会使用自然的灵气，其次才是如何去运用$(item)自然灵气$()。$(item)森林仪式$()运用了$(l:practices/gold_trees)金粉尘$()的特性，将自然灵气汇聚到树中，之后将灵气转换为实用的物品和工具。"
+        },
+        {
+            "type": "text",
+            "text": "要开始$(thing)森林仪式$()，你需要把$(item)金粉尘$()按照下一页的方式洒在地上，同时需要在周围构建一些$(item)仪式木桩$()。$(br)之后你必须把正确的$(item)树苗$()放置在中间，随着时间的推移，或者你可以使用骨粉催熟他，仪式会自然地开始。注意，每次仪式完毕之后周围的金粉尘都会消耗掉。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:tree_ritual",
+            "text": "在准备$(item)森林仪式$()的过程中，实际上不需要全部的$(item)仪式木桩$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)仪式木桩$()的合成。",
+            "recipe": "naturesaura:wood_stand"
+        },
+        {
+            "type": "text",
+            "text": "在仪式的进行中，我们可以获得$(item)象征护符$()。这是一种木质的图案，象征着不同的情感。不同的祭品会产生不同的象征护符。这些护符象征着$(item)自然灵气$()，以及他们所象征的情感。$(p)这些$(item)象征护符$()是至关重要的合成材料。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_joy",
+            "text": "$(item)幸福护符$()的制作方式，从蕴含着积极情绪的物品中提取而来，它们可以从自然的美好中被发现。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_fear",
+            "text": "$(item)惊慌护符$()的制作方式，从蕴含着惊慌情绪的物品中提取而来，象征着无助和弱小。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_anger",
+            "text": "$(item)愤怒护符$()的制作方式，从蕴含着愤怒情绪的物品中提取而来，多见于黑暗、火焰、以及爆破。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_sorrow",
+            "text": "$(item)痛苦护符$()的制作方式，从蕴含着消极情绪的物品中提取而来，这通常意味着脆弱、泪水、以及死亡。"
+        }
+    ]
+}

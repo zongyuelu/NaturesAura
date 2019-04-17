@@ -1,0 +1,17 @@
+{
+    "name": "漏斗升级器",
+    "icon": "naturesaura:hopper_upgrade",
+    "category": "using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)漏斗$()在原版中是一个十分有用的方块，但是有些时候它非常不方便，比如你想收集很大一片区域的掉落物时。$(item)漏斗升级器$()可以在这上面帮到你。将它放到任何一个$(item)漏斗$()上，漏斗的范围会被升级7格。当然，每收集一个物品，会消耗少量的$(item)自然灵气$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)漏斗升级器$()的合成",
+            "recipe": "naturesaura:hopper_upgrade"
+        }
+    ]
+}

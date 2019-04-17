@@ -1,0 +1,21 @@
+{
+    "name": "繁殖增益粉尘",
+    "icon": "minecraft:egg",
+    "category": "effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当这片区域内的$(item)自然灵气$()超过了$(item)自然之眼$()可见的二分之三时，$(item)繁殖增益粉尘$()便会生效。作用范围内的猪、羊、牛会开始汲取粉尘内的$(item)营养$()以及$(item)自然灵气$()，使他们可以在无需喂养的情况下开始繁殖。每次繁殖需要消耗一些$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "此外，在作用范围内，掉落在地上的$(item)鸡蛋$()无需把它扔出便可以在$(item)自然灵气$()的作用下孵化为小鸡。$(br)需要注意的是，当区域内的动物到达一定数量时，粉尘便会停止工作。为了避免这一点，你要控制区域内动物的人口数量。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:animal_powder",
+            "text": "$(l:effects/effect_powder)繁殖增益粉尘$()的合成方式。"
+        }
+    ]
+}

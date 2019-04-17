@@ -1,0 +1,6 @@
+{
+    "name": "利用自然灵气",
+    "description": "当人们从世界中收集$(item)自然灵气$()时，他们肯定会问：$(italic)\"我们该怎么使用它？\"$()。在本章中，你会得到答案。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/using.png",
+    "sortnum": 15
+}

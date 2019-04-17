@@ -1,0 +1,22 @@
+{
+    "name": "上古之树",
+    "icon": "naturesaura:ancient_leaves",
+    "category": "creating",
+    "advancement": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "生产$(thing)自然灵气$()最基本的方式便是在区域内种植上古之树，它会像普通的树一样生长，并且逐渐为区域内生成$(thing)自然灵气$()。需要注意的是，随着时间的推移，上古之树的树叶会枯萎，当所有树叶全部枯萎时，它便会停止生产$(thing)自然灵气$()。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)上古树苗()的制作方式，需要用到practices/tree_ritual)森林祭坛$()。",
+            "recipe": "naturesaura:ancient_sapling"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:ancient_planks",
+            "recipe2": "naturesaura:ancient_stick"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "自然之眼",
+    "icon": "naturesaura:eye",
+    "category": "items",
+    "advancement": "naturesaura:wood_stand",
+    "turnin": "naturesaura:eye",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "当你在研究$(item)自然灵气$()时，你很难得知在自然中或者设备中究竟储存着多少$(item)自然灵气$()。$(item)自然之眼$()会帮你做到这一点，把自然之眼放到物品栏中，一些信息会自动显示出来。"
+        },
+        {
+            "type": "text",
+            "text": "一个进度条代表了设备中储存的自然灵气，当然，如果它满了，这说明设备已经达到了储存上限。$(br)屏幕左上方的进度条代表了你周围环境中的$(item)自然灵气$()含量，通常情况下它会占进度条的一半，但如果$(item)自然灵气$()含量超过了进度条的最大值，你便无法知道具体数目。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)自然之眼$()的制作，需要用到$(l:practices/tree_ritual)森林仪式$()",
+            "recipe": "naturesaura:eye"
+        }
+    ]
+}

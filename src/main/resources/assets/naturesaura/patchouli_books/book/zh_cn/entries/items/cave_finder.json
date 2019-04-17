@@ -1,0 +1,21 @@
+{
+    "name": "暗影魔杖",
+    "icon": "naturesaura:cave_finder",
+    "category": "items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有些时候，你想要避免在一个区域内生成怪物，于是你找到所有的阴暗角落并插上火把。但是，尤其是在洞穴和地下，这会非常浪费时间。$(item)暗影魔杖$()可以帮助你很快的找到刷怪点，激活它，它便会显示出所有会生成怪物的区域。"
+        },
+        {
+            "type": "text",
+            "text": "以使用$(item)暗影魔杖$()的地点为中心，大约30格内所有的生怪区域都会被显示出来，持续30秒，这给了你足够的时间去给他们插上火把。$(br)注意，$(item)暗影魔杖$()的使用会消耗相当巨大的$(item)自然灵气$()，你需要在背包中放置足够的$(item)自然能量槽$()或者$(item)自然电池$()来为它供应能量。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)暗影魔杖$()的合成方式。",
+            "recipe": "naturesaura:cave_finder"
+        }
+    ]
+}

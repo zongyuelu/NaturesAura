@@ -1,0 +1,21 @@
+{
+    "name": "植物收集器",
+    "icon": "naturesaura:flower_generator",
+    "category": "creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "经研究表明，在$(thing)鲜花$()中蕴含大量的$(thing)自然灵气$()。为了收集在鲜花中的$(thing)自然灵气$()，你可以放置$(thing)植物收集器$()。它会持续吸收小范围内的鲜花，并转换为$(thing)自然灵气$()之后散播到周围的环境中。"
+        },
+        {
+            "type": "text",
+            "text": "有一点需要注意，当$(thing)植物收集器$()持续吸收同一种鲜花时，它所产生的$(thing)自然灵气$()会越来越低。$(br)这意味着你需要持续供应不同种类的鲜花来保证最大的工作效率，经过证明保持6种鲜花的持续供应便可以保持该设备的最大工作效率。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:flower_generator",
+            "text": "$(item)植物收集器$()的合成方式。"
+        }
+    ]
+}

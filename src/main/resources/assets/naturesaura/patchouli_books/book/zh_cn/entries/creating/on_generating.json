@@ -1,0 +1,17 @@
+{
+    "name": "生产自然灵气",
+    "icon": "naturesaura:gold_leaf",
+    "category": "creating",
+    "advancement": "naturesaura:wood_stand",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "学会$(thing)生产自然灵气$()至关重要。在开始学习如何生产之前，你会发现有一些$(thing)设备$()是完全用来生产$(thing)自然灵气$()的，随着在本章逐步的阅读，你会渐渐学会使用它们。此外，需要注意的是，当区域内的$(thing)自然灵气$()超过了$(thing)自然之眼$()所能探测的上限之后，他们便会停止工作。"
+        },
+        {
+            "type": "text",
+            "text": "当区域内的$(thing)自然灵气$()超过上限之后，有些设备会完全停止工作，有些则会继续工作但停止生产$(thing)自然灵气$()。你可以尝试使用$(l:devices/aura_detector)自然灵气探测器$()来控制他们。$(p)在之后的章节中，我们会介绍$(l:creating/generator_limit_remover)生产催化器$()，它会改变这种模式。"
+        }
+    ]
+}

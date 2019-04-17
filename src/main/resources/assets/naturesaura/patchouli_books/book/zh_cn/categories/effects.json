@@ -1,0 +1,6 @@
+{
+    "name": "自然力量失衡",
+    "description": "当你从区域内透支过度的$(item)自然灵气$()，或者生产过多的$(item)自然灵气$()，都会导致区域内自然力量的失衡。$(item)自然灵气$()过度会产生一些意想不到的增益效果，相反，过度透支$(item)自然灵气$()可能会导致极为严重的后果。本章将介绍这些可能会产生的不良后果，同时也会介绍如何合理运用$(item)自然灵气$()过度所产生的增益效果",
+    "icon": "naturesaura:textures/gui/patchouli/categories/effects.png",
+    "sortnum": 20
+}

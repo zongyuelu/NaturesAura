@@ -1,0 +1,6 @@
+{
+    "name": "探索自然",
+    "description": "与$(item)自然灵气$()相关但又不完全相关的基础，这些知识会给你带来长期的益处。这一章会讲解一些在开始前你必须知道的知识。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/practices.png",
+    "sortnum": 5
+}

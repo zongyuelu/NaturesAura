@@ -1,0 +1,21 @@
+{
+    "name": "矿物生成粉尘",
+    "icon": "minecraft:diamond_ore",
+    "category": "effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(l:creating/generator_limit_remover)生产催化器$()之后，$(item)自然灵气$()可以在到达上限之后继续被生产，以使得区域内出现不稳定效果。在$(item)自然灵气$()存在过度的不稳定效果下，$(item)矿物生成粉尘$()可以发挥起作用，使过多的$(item)自然灵气$()汇集在周围的方块内。在作用范围内，周围会随机生成一些珍稀的矿物。"
+        },
+        {
+            "type": "text",
+            "text": "$(thing)矿物$()会被随机生成在周围的$(item)石头$()中。当然，如果你在地狱内，那么会随机生成在$(item)地狱岩$()中。在末界中则是$(item)末地石$()。需要注意的是，在末地生成矿物会消耗掉非常大量的$(item)自然灵气$()，因为$(item)末地石$()的$(item)自然灵气$()溶解度非常高，因此我十分不建议你在末地中使用该粉尘。$(br)另外，你可以将$(item)矿物生成粉尘$()与力场生成器配合使用，来制造一些自动刷矿的设备。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:ore_spawn_powder",
+            "text": "$(l:effects/effect_powder)矿物生成粉尘$()的合成方式."
+        }
+    ]
+}

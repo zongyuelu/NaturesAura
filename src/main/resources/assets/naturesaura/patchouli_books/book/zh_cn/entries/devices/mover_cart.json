@@ -1,0 +1,21 @@
+{
+    "name": "能量矿车",
+    "icon": "naturesaura:mover_cart",
+    "category": "devices",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "很多植物学家会遇到一个普遍的问题：部分区域中的$(item)自然灵气$()无法转移到另外一个区域，$(item)能量矿车$()会帮你完成这一点。它会将一片区域内过量的$(item)自然灵气$()吸收进去，并在你想要的地点释放出来，你只需要构建一条铁路即可。"
+        },
+        {
+            "type": "text",
+            "text": "想要使用$(item)能量矿车$()，你首先需要构建一条连接两地的铁轨。当$(item)能量矿车$()驶过被$(item)激活的激活铁轨$()时，它会开始吸取附近的$(item)自然灵气$()。而当$(item)能量矿车$()驶过$(item)未被激活的激活铁轨$()时，它会开始释放储藏在其中的$(item)自然灵气$()。$(br)需要注意的，$(item)能量矿车$()有储存上限，超过上限的$(item)自然灵气$()会流失。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)能量矿车$()的合成方式。",
+            "recipe": "naturesaura:mover_cart"
+        }
+    ]
+}

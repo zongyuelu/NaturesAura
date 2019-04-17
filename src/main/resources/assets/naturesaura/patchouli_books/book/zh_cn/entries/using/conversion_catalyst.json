@@ -1,0 +1,52 @@
+{
+    "name": "物品变形器",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然祭坛$()可以为一些物品注入$(item)自然灵气$()，它同样可以运用$(item)自然灵气$()来改变一些物品的性质。$(br)而实现的方法非常简单，只需要将$(item)物品变形器$()放置在$(item)自然祭坛$()四个较低的金石砖之一上面，再像注魔一样将物品放在$(item)自然祭台$()上即可。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(item)物品变形器$()的制作方法，需要用到$(l:practices/tree_ritual)森林仪式().",
+            "recipe": "naturesaura:conversion_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)黑暗之瓶$()变形为$(item)龙息$()",
+            "recipe": "naturesaura:breath"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)腐肉$()变形为$(item)皮革$()",
+            "recipe": "naturesaura:leather"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)沙子$()变形为$(item)灵魂沙$()",
+            "recipe": "naturesaura:soul_sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)蘑菇$()变形为$(item)地狱疣$()",
+            "recipe": "naturesaura:nether_wart"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)下界石英$()变形为$(item)海晶碎片$()",
+            "recipe": "naturesaura:prismarine"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)玻璃瓶$()变形为$(item)水瓶$()",
+            "recipe": "naturesaura:water"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "从$(item)木炭$()变形为$(item)煤炭$()",
+            "recipe": "naturesaura:coal"
+        }
+    ]
+}

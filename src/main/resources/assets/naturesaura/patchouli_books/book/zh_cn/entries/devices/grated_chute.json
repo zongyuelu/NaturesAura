@@ -1,0 +1,25 @@
+{
+    "name": "过滤漏斗",
+    "icon": "naturesaura:grated_chute",
+    "category": "devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在许多设备中，物品的$(thing)运输$()非常关键，但是当需要大规模运输的时候，频繁的使用各种$(thing)矿车$()是一件很让人头疼的事情，尤其是大规模的物品过滤很难实现。$(item)过滤漏斗$()不同于原版的漏斗，它可以帮你过滤物品。"
+        },
+        {
+            "type": "text",
+            "text": "$(item)过滤漏斗$()的工作与普通$(item)漏斗$()没有任何区别，除了它比漏斗工作的更快，而且当你往$(item)过滤漏斗$()上贴上$(item)物品展示框$()，并在其中放入你想要过滤的物品时，只有你选择的物品可以通过该$(item)过滤漏斗$()。这包括从容器中$(item)提取物品$()，以及拾取$(item)掉落物$()。$(p)他同时可以与$(l:using/hopper_upgrade)漏斗升级器$()一起工作，来提升它的工作范围。"
+        },
+        {
+            "type": "text",
+            "text": "需要额外说明的是，按住SHIFT右击$(item)过滤漏斗$()可以使它的物品过滤功能反转：放在$(item)物品展示框$()中的物品不会通过该设备，相反，所有其他物品则会顺利通过$(item)过滤漏斗$()。另外，当持有$(l:items/eye)自然之眼$()时，你可以看到$(item)过滤漏斗$()内的物品数量。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)过滤漏斗$()的合成方式。",
+			"recipe": "naturesaura:grated_chute"
+        }
+    ]
+}

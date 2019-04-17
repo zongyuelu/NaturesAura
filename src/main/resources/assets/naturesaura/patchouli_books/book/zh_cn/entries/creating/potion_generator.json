@@ -1,0 +1,26 @@
+{
+    "name": "药水祭坛",
+    "icon": "naturesaura:potion_generator",
+    "category": "creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "尘归尘，土归土（作者原句：As ashes turn to ashes, and dust to dust），科学家们逐渐发现了在$(item)自然灵气$()和$(item)药剂能量$()之箭转换的方式。简单来讲，我们可以把药水的效果转换为$(item)自然灵气$()。$(p)像下一页中描述的一样，你需要建造药水祭坛，然后投掷$(item)滞留型药水$()，来将其转换为$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "把任何具有$(item)正面效果$()的$(item)滞留型药水$()投掷在$(item)药水祭坛之上$()，会产生对应的$(item)自然灵气$()。$(p)值得注意的是，药水的时效越长、效果越强，所产生的$(item)自然灵气$()便会越多，另外，只有一种药水能同时产生作用，投掷3种药水也只能获得一个药水的产能。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:potion_generator",
+            "text": "$(item)药水祭坛$()的搭建方式，中间需要放置一个$(item)药水吸收器$()。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:potion_generator",
+            "text": "$(item)药水吸收器$()的合成方式。"
+        }
+    ]
+}

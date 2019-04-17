@@ -1,0 +1,12 @@
+{
+    "name": "不稳定爆发",
+    "icon": "minecraft:tnt",
+    "category": "effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在自然枯竭和窒息效果之后，如果你继续从植物和生物中透支区域内的$(item)自然灵气$()，那么可能会导致空间内的能量极不稳定，最终导致剧烈的爆炸，学术上命名为$(item)不稳定爆发$()。当$(item)不稳定爆发$()发生时，整个区域内所有表面会发生爆炸，你所透支的$(item)自然灵气$()越多，爆炸便会越猛烈。"
+        }
+    ]
+}

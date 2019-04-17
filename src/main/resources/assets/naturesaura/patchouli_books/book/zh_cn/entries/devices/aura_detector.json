@@ -1,0 +1,17 @@
+{
+    "name": "自然灵气探测器",
+    "icon": "naturesaura:aura_detector",
+    "category": "devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当你试图去利用$(item)自然灵气$()，你一定可以通过自动检测区域内$(item)自然灵气$()的多少来控制某些设备的运作。$(item)自然灵气探测器$()为我们提供了该方法。当$(item)自然灵气探测器$()检测到区域内的$(item)自然灵气$()时，它会向周围发出一个$(item)红石信号$()，而该信号的强弱则与区域内$(item)自然灵气$()的多少有关，你可以通过$(item)红石比较器$()来构建你想要的设备。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自然灵气探测器$()的合成方式。",
+            "recipe": "naturesaura:aura_detector"
+        }
+    ]
+}

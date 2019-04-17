@@ -1,0 +1,17 @@
+{
+    "name": "能量充能粉尘",
+    "icon": "naturesaura:aura_cache",
+    "category": "effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "当区域内的$(item)自然灵气$()超过$(item)自然之眼$()所能观测的二分之一时，$(item)能量充能粉尘$()会开始发生作用。在其作用范围内，任何携带$(item)自然能量槽$()或者$(item)自然电池$()的玩家，他们背包中的该物品会缓慢从过度饱和的区域中吸取$(item)自然灵气$()。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:cache_powder",
+            "text": "$(l:effects/effect_powder)能量充能粉尘的合成方式。"
+        }
+    ]
+}

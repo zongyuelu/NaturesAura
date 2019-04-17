@@ -1,0 +1,17 @@
+{
+    "name": "净化灯笼",
+    "icon": "naturesaura:spawn_lamp",
+    "category": "using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)净化灯笼$()在作为一个很好的装饰方块的同时，还有一个非常实用的作用:当它被通入$(thing)红石信号$()时，根据红石信号的强弱，它会使最高周围48格内的怪物停止生成，与照明范围无关。同样，每次它阻止一个怪物生成时，会消耗一部分$(item)自然灵气$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)净化灯笼$()的合成方式。",
+            "recipe": "naturesaura:spawn_lamp"
+        }
+    ]
+}

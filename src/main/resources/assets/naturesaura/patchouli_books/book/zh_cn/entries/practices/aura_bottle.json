@@ -1,0 +1,28 @@
+{
+    "name": "自然灵气之瓶",
+    "icon": "naturesaura:aura_bottle{stored_type:'naturesaura:overworld'}",
+    "category": "practices",
+    "advancement": "naturesaura:wood_stand",
+    "turnin": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然灵气$()的存在已经成为了困扰科学家很多年的谜题。这些年来他们一直使用$(item)自然灵气之瓶$()来收集$(item)自然灵气$()。自然灵气之瓶可以将他们变为肉眼可见的能量，以供科学家们更好的研究。但是不久之后人们很快就发现自然灵气之瓶会导致很多问题。"
+        },
+        {
+            "type": "crafting",
+            "text": "之后，科学家们很快研究出了另一种瓶子 $(item)瓶与木塞$()，并且用软木塞塞住他们。手持他们，可以与空气发生反应，并收集自然灵气。",
+            "recipe": "naturesaura:bottle_two_the_rebottling"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_bottle{stored_type:'naturesaura:overworld'}",
+            "link_recipe": true,
+            "text": "当然，根据你所处世界的不同，你收集到的$(item)自然灵气$()也会有不同的形态。比如在正常世界中，$(item)自然灵气$()会是阳光；地狱中你收集到的$(item)自然灵气$()会是灵魂形态；而在末地中，你收集到的$(item)自然灵气$()会是无尽的黑暗。"
+        },
+        {
+            "type": "text",
+            "text": "此外，你可以利用$(item)发射器$()来自动收集$(item)自然灵气$()。将空的$(item)瓶与木塞$()放入发射器，每当发射时便会喷出一个充满$(item)自然灵气$()的瓶子。"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "末影物品盒",
+    "icon": "naturesaura:ender_crate",
+    "category": "using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)末影箱$()在存储物品上非常方便，但是它在远程运输物品方面却十分麻烦。为了实现简单的物品运输，科学家们研究出了$(item)末影物品盒$()：两个被连接的$(item)末影物品盒$()拥有共同的储物栏，哪怕他们位于不同的世界，当然了，每次进行物品相关的操作都会消耗一些$(item)自然灵气$()。"
+        },
+        {
+            "type": "text",
+            "text": "将两个$(item)末影物品盒$()连接起来的方法非常简单，将末影箱与一个末影之眼共同放入铁砧中，直接将$(item)末影物品盒$()更名为你想要的ID，它会与另外一个拥有共同ID的$(item)末影物品盒$()链接在一起。$(p)你无需担心别人的$(item)末影物品盒$()和你拥有共同的ID。你仅需将一个$(item)恐惧护符$()放入$(item)末影物品盒$()中，它的ID便会锁定，只有你可以使用。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)末影物品盒$()的合成方式。",
+            "recipe": "naturesaura:ender_crate"
+        }
+    ]
+}
